@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -78,24 +87,33 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: var(--primary-white-color);*/
+    color: var(--primary-white-color);
 }
 
 .hero-button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
+    cursor: pointer;
+    border: none;
     }
 
 .text-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.88;    
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*O nas*/
@@ -124,7 +142,7 @@ color: var(--primary-text-color)
 
 /*chem-mi-zanimaensa*/
 
-.chem-mi-zanimaemsa {
+.nasha-komanda {
     background-color: #F5F4FA;;
 }
 
@@ -135,6 +153,7 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-title-color);
+padding-bottom: 50px;
 }
 
 .chem-mi-zanimaemsa-text {
@@ -146,6 +165,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-white-color);
 background: rgba(47, 48, 58, 0.8);
+padding-top: 27px;
+padding-bottom: 27px;
 }
 
 /*nasha-komanda*/
@@ -165,11 +186,22 @@ background: rgba(47, 48, 58, 0.8);
     color: var(--primary-text-color);
 }
 
+.action {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
 
 /*podval*/
 
 .podval {
     background: #2F303A;
+    padding-top: 47px;
 }
 
 .podval-join {
@@ -244,4 +276,182 @@ background: rgba(47, 48, 58, 0.8);
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+/*style margin, padding... */
+
+h1, h2, h3, h4, h5, h5 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
+
+.header-container .div-container {
+    display: flex;
+
+}
+
+.nav-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-container {
+    margin: 0;
+    margin-right: 85px; 
+    margin-top: 24px;
+}
+
+.mail-container,
+.tel-container {
+    display: flex;
+}
+
+.pages-adress {
+    margin-right: 10px;
+}
+
+.nav-list-container {
+    margin: 0;
+    display: flex;
+    margin-top: 32px;  
+    margin-bottom: 32px;
+}
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+
+.studio {
+    padding-right: 50px;
+}
+
+.portfolio {
+    padding-right: 43px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.otstup {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.join {
+    width: 206px;
+}
+
+.comanda-block {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.social-link {
+    padding: 16px 32px 24px;
+}
+
+.komanda-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.hero-title {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.hero-button {
+    margin-bottom: 200px;
+}
+
+.element {
+    text-align: center;
+}
+
+.o-nas-img {
+    padding: 25px 100px;
+}
+
+.o-nas-title {
+    width: 270px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.o-nas-text {
+    width: 270px;
+}
+
+.photo-fon {
+    background: url(/images/shapka.jpg);
+    width: 1600px;
+    height: 600px;
+}
+
+
+.div-container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.otstup-o-nas {
+    padding-top: 94px;
+}
+
+.mail-container {
+    padding-right: 30px;
+}
+
+.icon-client {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+}
+
+.chem-mi-zanimaemsa .link:not(:last-child) {
+    margin-right: 30px;
+}
+.nasha-komanda .link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.klient-list .link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.otstup-o-nas .link:not(:last-child) {
+    margin-right: 30px;
 }
