@@ -12,46 +12,50 @@
 
     <!--Шапка-->
     <header class="header-container">
-        <nav>
-            <a class="link" href="./index.html" aria-label="Логотип"> 
-                <p lang="en"><span class="logo-header-web">Web</span><span class="logo-header-studio">Studio</span></p>
-            </a>
-            <ul>
-                <li class="list">
-                    <a class="link-nav link" href="./index.html">Студия</a>
-                </li>
-                <li class="list">
-                    <a class="link-nav link active-page" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="list">
-                    <a class="link-nav link" href="">Контакты</a>
+        <div class="div-container">
+            <nav class="nav-container">
+                <a class="link" href="./index.html" aria-label="Логотип"> 
+                    <p class="logo-container" lang="en"><span class="logo-header-web">Web</span><span class="logo-header-studio">Studio</span></p>
+                </a>
+                <ul class="nav-list-container">
+                    <li class="list">
+                        <a class="link-nav link studio active-page" href="./index.html">Студия</a>
+                    </li>
+                    <li class="list">
+                        <a class="link-nav portfolio link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="list">
+                        <a class="link-nav link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contacts-container">
+                <li class="mail-container list">
+                    <img class="pages-adress" src="./images/mail.svg" alt="конверт" width="15" height="10">
+                    <a class="mail-tel-text link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li >
+                <li class="tel-container list">
+                    <img class="pages-adress" src="./images/tel.svg" alt="телефон" width="10" height="15">
+                    <a class="mail-tel-text link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-        <ul>
-            <li class="mail-container list">
-                <img src="./images/mail.svg" alt="конверт" width="15" height="10">
-                <a class="mail-tel-text link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li >
-            <li class="tel-container list">
-                <img src="./images/tel.svg" alt="телефон" width="10" height="15">
-                <a class="mail-tel-text link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2 hidden>Меню</h2>
-            <ul>
-                <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Все</span></button></li>
-                <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Веб-сайты</span></button></li>
-                <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Приложения</span></button></li>
-                <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Дизайн</span></button></li>
-                <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Маркетинг</span></button></li>
-            </ul>
+        <section class="menu div-container">
+            <div class="menu-portfolio">
+                <h2 hidden>Меню</h2>
+                <ul class="items">
+                    <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Все</span></button></li>
+                    <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Веб-сайты</span></button></li>
+                    <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Приложения</span></button></li>
+                    <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Дизайн</span></button></li>
+                    <li class="list"><button class="portfolio-btn"><span class="portfolio-btn-text">Маркетинг</span></button></li>
+                </ul>
+            </div>
 
-            <ul class="list">
+            <ul class="list gruperovka">
                 <li>
                     <img src="./images/portfolio/tehno.jpg" alt="Технокряк">
                     <h3 class="portfolio-title">Технокряк</h3>
