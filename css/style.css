@@ -488,6 +488,19 @@ img {
     padding-left: 22px;
 }
 
+.portfolio-title {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 2px;
+}
+
+.portfolio-text {
+    padding-top: 2px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
 
 .items {
     display: flex;
@@ -508,6 +521,9 @@ img {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .flex-element:nth-child(3n) {
