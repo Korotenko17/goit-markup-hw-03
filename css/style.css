@@ -412,7 +412,7 @@ img {
 }
 
 .photo-fon {
-    background: url(/images/shapka.jpg);
+    background: url(./shapka.jpg);
     width: 1600px;
     height: 600px;
     margin-right: auto;
