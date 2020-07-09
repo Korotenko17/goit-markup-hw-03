@@ -222,18 +222,17 @@
     </main>
 
     <!--Подвал-->
-    <div class="div-container">
-        <footer class="podval container">
-            <div class="link">
-                <a class="link" href="index.html" aria-label="Логотип"> <p lang="en"><span class="web-podval">Web</span><span class="studio-podval">Studio</span></p></a>
-            <address> <a class="link" href="https://goo.gl/maps/5drUgd8ndHesN1Ve9" target="_blank"> <span class="adress-podval">г. Киев, пр-т Леси Украинки, 26</span></a></address>
-            <ul>
+    
+    <footer class="podval">
+        <div class="div-container">
+            <div class="link container-podval">
+                <a class="link logo-podval" href="index.html" aria-label="Логотип"> <p lang="en"><span class="web-podval">Web</span><span class="studio-podval">Studio</span></p></a>
+            <address class="podval-adress"> <a class="link" href="https://goo.gl/maps/5drUgd8ndHesN1Ve9" target="_blank"> <span class="adress-podval">г. Киев, пр-т Леси Украинки, 26</span></a></address>
+            <ul class="podval-mail-tel">
                 <li class="mail-container-podval list">
-                    <img src="./images/mail.svg" alt="конверт" width="15" height="10">
                     <a class="mail-tel-text link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li >
                 <li class="tel-container-podval list">
-                    <img src="./images/tel.svg" alt="телефон" width="10" height="15">
                     <a class="mail-tel-text link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
@@ -241,31 +240,36 @@
             
             <div class="join">
                 <b class="podval-join">присоединяйтесь</b>
-            <ul class="link container">
-                <li class="link list">
-                    <a href=""><img src="./images/instagram.svg" alt="инстаграм"></a>
-                </li>
-                <li class="link list">
-                    <a href=""><img src="./images/twitter.svg" alt="твиттер"></a>
-                </li>
-                <li class="link list"> 
-                    <a href=""><img src="./images/facebook.svg" alt="фейсбук"> </a>
-                </li>
-                <li class="link list">
-                    <a href=""><img src="./images/linkedin.svg" alt="линкед"> </a>
-                </li>
-            </ul>
+                <ul class="link otstup-icon">
+                    <li class="link list podval-icon">
+                        <a href=""><img src="./images/instagram.svg" alt="инстаграм"></a>
+                    </li>
+                    <li class="link list podval-icon">
+                        <a href=""><img src="./images/twitter.svg" alt="твиттер"></a>
+                    </li>
+                    <li class="link list podval-icon"> 
+                        <a href=""><img src="./images/facebook.svg" alt="фейсбук"> </a>
+                    </li>
+                    <li class="link list podval-icon">
+                        <a href=""><img src="./images/linkedin.svg" alt="линкед"> </a>
+                    </li>
+                </ul>
             </div>
             
-            <b class="action">Подпишитесь на рассылку</b>
-        <input
-            type="text"
-            name="email"
-            placeholder="EMAILE"
-        />
-        <button class="button" type="submit">Подписаться</button>
-        </footer>
-    </div>
+            <div class="podpiska-container">
+                <b class="action">Подпишитесь на рассылку</b>
+                    <div class="podpiska">
+                        <input class="pole"
+                            type="text"
+                            name="email"
+                            placeholder="EMAILE"
+                        />
+                        <button class="button" type="submit">Подписаться</button>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    
 
 </body>
 </html>
