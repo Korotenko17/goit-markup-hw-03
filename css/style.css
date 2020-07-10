@@ -87,7 +87,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    /* color: var(--primary-white-color); */
 }
 
 .hero-button {
@@ -153,7 +153,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .chem-mi-zanimaemsa-text {
@@ -300,8 +300,16 @@ img {
     display: block;
 }
 
+.header-container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .header-container .div-container {
     display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -342,11 +350,11 @@ img {
 
 
 .studio {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .portfolio {
-    padding-right: 43px;
+    margin-right: 43px;
 }
 
 
@@ -355,9 +363,8 @@ img {
     justify-content: space-evenly;
 }
 
-.otstup {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.otstup-link:not(:last-child) {
+    margin-right: 30px;
 }
 
 .join {
@@ -367,15 +374,18 @@ img {
 .comanda-block {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    padding-top: 30px;
+    padding-bottom: 24px;
 }
 
 .social-link {
-    padding: 16px 32px 24px;
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .komanda-title {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team {
@@ -385,13 +395,13 @@ img {
 }
 
 .hero-title {
-    padding-top: 200px;
-    padding-bottom: 30px;
+    /* margin-top: 200px; */
+    margin-bottom: 30px;
 }
 
-.hero-button {
+/* .hero-button {
     margin-bottom: 200px;
-}
+} */
 
 .element {
     text-align: center;
@@ -403,37 +413,36 @@ img {
 
 .o-nas-title {
     width: 270px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .o-nas-text {
     width: 270px;
 }
 
-.photo-fon {
+/* .photo-fon {
     background: url(./shapka.jpg);
     width: 1600px;
     height: 600px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 
 .div-container {
     width: 1200px;
+    padding-top: 47px;
+    padding-bottom: 47px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.otstup-o-nas {
-    padding-top: 94px;
-}
 
 .mail-container {
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .mail-container,
@@ -469,10 +478,15 @@ img {
 
 /*flex portfolio*/
 
-.menu {
-    padding-top: 93px;
+/* .otstup-porfolio-header {
+    padding-bottom: 46px;
+} */
+
+
+.otstup-portfolio {
+    padding-top: 61px;
     padding-bottom: 94px;
-}
+} 
 
 .menu-portfolio {
     margin-bottom: 50px;
@@ -488,17 +502,11 @@ img {
 }
 
 .portfolio-title {
-    padding-top: 20px;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .portfolio-text {
-    padding-top: 2px;
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 20px;
+    margin-top: 2px;
 }
 
 .items {
@@ -523,6 +531,13 @@ img {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+}
+
+.flex-element-item {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 .flex-element:nth-child(3n) {
@@ -577,12 +592,19 @@ img {
     display: flex;
 }
 
-.social-link-item:not(:last-child) {
-    margin-right: 32px;
+.social-link-item {
+    padding: 12px;
 }
 
+.social-link-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.podval-icon {
+    padding: 12px;
+}
 .podval-icon:not(:last-child) {
-    margin-right: 34px;
+    margin-right: 10px;
 }
 
 .podpiska-container {
