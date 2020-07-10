@@ -660,3 +660,7 @@ img {
     padding-top: 47px;
     padding-bottom: 94px;
 }
+
+.header-container .div-container {
+    padding: 0;
+}
