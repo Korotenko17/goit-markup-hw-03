@@ -304,6 +304,7 @@ img {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 25px;
 }
 
 .header-container .div-container {
@@ -338,8 +339,10 @@ img {
 .nav-list-container {
     margin: 0;
     display: flex;
-    margin-top: 32px;  
-    margin-bottom: 32px;
+}
+
+.viravnivanie {
+    align-items: baseline;
 }
 
 .contacts-container {
@@ -477,11 +480,6 @@ img {
 
 
 /*flex portfolio*/
-
-/* .otstup-porfolio-header {
-    padding-bottom: 46px;
-} */
-
 
 .otstup-portfolio {
     padding-top: 61px;
